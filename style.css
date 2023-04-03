@@ -1,0 +1,48 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+}
+
+header{
+    background-color:coral;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin-left: 10px;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 600px) {
+    nav li{
+        padding: 6px 5px;
+        margin-left: 5px;
+    }
+  }
+
+li>a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    margin-top: 5px;
+    background-color: coral;
+    display: flex;
+    padding: 15px;
+}
+.section-right{
+    margin-left: 10px;
+    max-width: 250px;
+}
